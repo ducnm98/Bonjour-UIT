@@ -591,9 +591,9 @@
     .show-menu .menu-wrap {left: 0;}
 
     /* header */
-    .navbar-toggle .icon-bar {background: #fff;}
+    .navbar-toggle .icon-bar {background: #202F64;}
     .navbar-toggle { margin-right: 0}
-    .navbar-collapse {box-shadow: none; background:rgba(0,0,0,.95); width: 100%; position: absolute; top: 75px}
+    .navbar-collapse {box-shadow: none; background:rgba(255,255,255,.95); width: 100%; position: absolute; top: 75px}
     .navbar.shrink .navbar-collapse {top:60px}
     .navbar li.active a { border-bottom: 1px solid #fff; display: inline-block; }
     .navbar-header {float: none;} 
@@ -954,9 +954,9 @@
     .xs-no-border { border:none !important}
 
     /* header */
-    .navbar-toggle .icon-bar {background: #fff;}
+    .navbar-toggle .icon-bar {background: #202F64;}
     .navbar-toggle { margin-right: 0}
-    .navbar-collapse {box-shadow: none; background:rgba(0,0,0,.95); width: 100%; position: absolute; top: 75px}
+    .navbar-collapse {box-shadow: none; background:rgba(255,255,255,.95); width: 100%; position: absolute; top: 75px}
     .navbar.shrink .navbar-collapse {top:60px}
     .navbar li.active a { border-bottom: 1px solid #fff; display: inline-block; }
 

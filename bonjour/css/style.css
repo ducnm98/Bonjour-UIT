@@ -292,6 +292,11 @@ i { color: #9a9a9a; margin:0}
 ====================================== */
 
 .bg-white{ background: #fff !important;}
+.bg-bonjour-blue{ background: #202F64 !important;}
+.bg-bonjour-blue-dark{ background: #0B0048 !important;}
+.bg-bonjour-red{ background: #D22B27 !important;}
+.bg-bonjour-red-dark{ background: #B42C33 !important;}
+.bg-deep-bonjour-blue{ background: #A9BCD0 !important;}
 .bg-white-transparent{ background: rgba(255,255,255,.3) !important}
 .bg-yellow{ background: #e6af2a !important; }
 .bg-deep-yellow{ background: #c8a64b !important; }
@@ -621,12 +626,12 @@ section { padding: 130px 0; }
 .highlight-button-green i { color: #fff}
 .highlight-button-green:hover i {color:#fff;}
 
-.highlight-button-blue { border:2px solid #2283d4; display: inline-block; padding: 8px 20px 9px; font-size: 12px; color:#fff; background-color: #2283d4;  }
+.highlight-button-blue { border:2px solid #202F64 ; display: inline-block; padding: 8px 20px 9px; font-size: 12px; color:#fff; background-color: #202F64 ;  }
 .highlight-button-blue:hover, .highlight-button-blue:focus { background-color: transparent; border: 2px solid #fff; color:#fff}
 .highlight-button-blue i { color: #fff}
 .highlight-button-blue:hover i {color:#2283d4}
 
-.highlight-button-blue-dark { border:2px solid #2283d4; display: inline-block; padding: 8px 20px 9px; font-size: 12px; color:#fff; background-color: #2283d4;  }
+.highlight-button-blue-dark { border:2px solid #202F64 ; display: inline-block; padding: 8px 20px 9px; font-size: 12px; color:#fff; background-color: #202F64 ;  }
 .highlight-button-blue-dark:hover, .highlight-button-blue-dark:focus { background-color: transparent; border: 2px solid #000; color:#000}
 .highlight-button-blue-dark i { color: #fff}
 .highlight-button-blue-dark:hover i {color:#2283d4}
@@ -649,7 +654,7 @@ section { padding: 130px 0; }
 .btn-black:hover, .btn-black:focus {border: 2px solid #000; color: #000; background-color: transparent}
 
 .highlight-button-black-border { border: 4px solid #000; background-color: transparent; font-size: 22px; padding: 20px 30px; color: #000;}
-.highlight-button-black-border:hover, .highlight-button-black-border:focus{ border: 4px solid #000; background-color: #000; color: #fff}
+.highlight-button-black-border:hover, .highlight-button-black-border:focus{ border: 4px solid #202F64 ; background-color: #202F64 ; color: #fff}
 
 .highlight-button-white-border{ border: 4px solid #fff; background-color: transparent; font-size: 22px; padding: 20px 30px; color: #fff;}
 .highlight-button-white-border:hover, .highlight-button-white-border:focus { border: 4px solid #fff; background-color: #fff; color: #000}
@@ -774,7 +779,8 @@ nav.shrink .container {height: 60px;}
 .nav li {margin: 15px 20px}
 .sticky-wrapper {position: absolute; top: 0; width: 100%}
 .navbar-brand img {position: relative; top: -5px; z-index: 2; max-width: 156px;}
-nav.shrink {background: rgba(0,0,0,1); border: none !important}
+nav.shrink {background: rgba(255,255,255,1); border: none !important}
+.nav li.shrink a {color: #202F64 !important}
 .transparent-header.shrink {background: rgba(0,0,0,.7); border: none !important}
 nav.navbar-height{  height: 100px !important;}
 nav.navbar-height.shrink {height: 50px !important;}
@@ -1428,7 +1434,7 @@ input.no-border, input.no-border:focus, select.no-border, select.no-border:focus
 ====================================== */
 
 footer { clear:both;}
-footer img {max-width: 156px;}
+footer img {max-width: 300px;}
 .footer-bottom {padding: 30px 0}
 .footer-top {padding: 80px 0}
 .footer-social i {  font-size: 22px;}
