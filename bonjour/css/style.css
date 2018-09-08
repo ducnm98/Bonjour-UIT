@@ -769,7 +769,7 @@ section { padding: 130px 0; }
 ====================================== */
 
 #header {z-index: 5}
-.navbar {border: none; display: inline-table; width: 100%; border-radius:0; position: fixed; top: 0; z-index: 10; border-bottom: 1px solid rgba(255,255,255,.15) }
+.navbar {border: none; display: inline-table; width: 100%; border-radius:0; position: fixed; top: 0; z-index: 10; }
 nav .container { display: table-cell; height: 75px; position: relative; vertical-align: middle; }
 .navbar-header {background: url("img/logo-border.png") right no-repeat}
 nav.shrink .container {height: 60px;}

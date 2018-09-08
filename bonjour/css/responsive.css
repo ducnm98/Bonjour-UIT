@@ -1,8 +1,12 @@
 @media (max-width: 1650px) {
+     /* Bonjour image */
+     .logo-image-bonjour { max-width: 50%; margin-bottom: 10%; }
     /* tattoo */
     .tattoo-art-box .title-extra { font-size: 50px !important; line-height: 50px !important;}
 }
 @media (max-width: 1500px) {
+     /* Bonjour image */
+     .logo-image-bonjour { max-width: 50%; margin-bottom: 10%; }
     /* work */
     .grid-style1 .grid figcaption h3 {padding: 0 50px;}
 
@@ -17,6 +21,8 @@
 }
 
 @media (max-width: 1400px) {
+     /* Bonjour image */
+     .logo-image-bonjour { max-width: 50%; margin-bottom: 10%; }
     /* blog */
     .blog-post-style3 article .post-details {padding: 10px;}
 
@@ -32,6 +38,8 @@
 }
 
 @media (max-width: 1300px) {
+     /* Bonjour image */
+     .logo-image-bonjour { max-width: 50%; margin-bottom: 10%; }
     /* blog */
     .blog-post-style5 .post-details {min-height: 315px; padding: 15% 12%;}
 
@@ -56,6 +64,8 @@
 }
 
 @media (max-width: 1199px) {
+     /* Bonjour image */
+     .logo-image-bonjour { max-width: 50%; margin-bottom: 10%; }
     section { padding: 110px 0;}
 
     .md-center-col{ float:none !important; margin-left:auto !important; margin-right:auto !important}
@@ -318,16 +328,22 @@
 }
 
 @media only screen  and (min-width : 1000px) and (max-width : 1024px) { 
+    /* Bonjour image */
+    .logo-image-bonjour { max-width: 50%; margin-bottom: 10%; }
     
     #breakfast, #lunch, #dinner {background-size: 145%  !important;}
     .restaurant-menu-text { left: 59px;}
 }
 
 @media (max-width: 1150px) {
+    /* Bonjour image */
+    .logo-image-bonjour { max-width: 50%; margin-bottom: 10%; }
     /* personal */
     .personal .container { width: 750px !important;}
 }
 @media (max-width: 1050px) {
+    /* Bonjour image */
+    .logo-image-bonjour { max-width: 50%; margin-bottom: 10%; margin-left: 5%; }
     /* work */
     .grid-style1 .grid figcaption h3 {font-size: 14px; line-height: 20px;}
     .grid-style2 .grid figcaption {padding: 17px 20px;}
@@ -355,6 +371,8 @@
 }
 
 @media (max-width: 991px) {
+    /* Bonjour image */
+    .logo-image-bonjour { max-width: 50%; margin-bottom: 35%; margin-left: 5%; }
     /* personal */
     .footer-social a { margin: 0 13px;}
     .personal .container { width: 460px !important;}
@@ -591,7 +609,7 @@
     .show-menu .menu-wrap {left: 0;}
 
     /* header */
-    .navbar-toggle .icon-bar {background: #202F64;}
+    .navbar-toggle .icon-bar {background: #ffffff;}
     .navbar-toggle { margin-right: 0}
     .navbar-collapse {box-shadow: none; background:rgba(255,255,255,.95); width: 100%; position: absolute; top: 75px}
     .navbar.shrink .navbar-collapse {top:60px}
@@ -711,7 +729,7 @@
     .attending-main {height: 500px;}
     .attending-main .img-border-medium {height: 470px;}
     .our-story-wedding .blog-post-style3 article .post-details { padding: 20px 0 0;}
-    .center-logo-header .navbar-toggle .icon-bar { background: #000;}
+    .center-logo-header .navbar-toggle .icon-bar { background: #ffffff;}
     
     /* tattoo */
     .header-white .navbar-nav a {color: #fff !important} 
@@ -729,6 +747,8 @@
 }
 
 @media (max-width: 767px) {
+    /* Bonjour image */
+    .logo-image-bonjour { max-width: 60%; margin-bottom: 50%; margin-left: 5%; }
 
     .xs-center-col{ float:none !important; margin-left:auto !important; margin-right:auto !important}
     
@@ -954,7 +974,7 @@
     .xs-no-border { border:none !important}
 
     /* header */
-    .navbar-toggle .icon-bar {background: #202F64;}
+    .navbar-toggle .icon-bar {background: #ffffff;}
     .navbar-toggle { margin-right: 0}
     .navbar-collapse {box-shadow: none; background:rgba(255,255,255,.95); width: 100%; position: absolute; top: 75px}
     .navbar.shrink .navbar-collapse {top:60px}
@@ -1117,6 +1137,8 @@
 }
 
 @media (max-width: 480px) {
+    /* Bonjour image */
+    .logo-image-bonjour { max-width: 70%; margin-bottom: 50%; margin-left: 5%; }
     /* blog */
     .blog-post-style1 article:hover .post-details {padding-left: 12px;}
     .blog-post-style2 .post-details span a { font-size: 11px;}
@@ -1190,7 +1212,8 @@
 }
 
 @media (max-width: 320px) {
-    
+    /* Bonjour image */
+    .logo-image-bonjour { max-width: 70%; margin-bottom: 50%; margin-left: 5%; }
     /* pull navigation */
     .menu-wrap {width: 100%; left: 350px}
     .menu-button {right: 0; margin: 30px;}
@@ -1200,6 +1223,8 @@
     .attending-main .img-border-medium {height: 430px;}
 }
  @media only screen  and (min-width : 360px) and (max-width : 640px) { 
+     /* Bonjour image */
+    .logo-image-bonjour { max-width: 70%; margin-bottom: 50%; margin-left: 5%; }
      .coming-soon-bg, .coming-soon-bg .slider-text-middle-main {min-height: 550px !important}
      .min-height-image .full-screen { min-height: 510px !important;}
      .display-none-minwidth {display: none !important}
