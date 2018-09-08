@@ -10,7 +10,7 @@ $(window).scroll(function () {
     } else {
         $('nav').removeClass('shrink');
         $('nav ul li').removeClass('shrink');
-        $('nav a img').attr("src", './bonjour/images/logo-white.png')
+        $('nav a img').attr("src", './bonjour/images/logo-transaction.png')
     }
 });
 
