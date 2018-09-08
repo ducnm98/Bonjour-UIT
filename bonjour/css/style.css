@@ -291,6 +291,7 @@ i { color: #9a9a9a; margin:0}
     Background color
 ====================================== */
 
+.bg-main-page{ background-color: #f8f8f8 !important}
 .bg-white{ background: #fff !important;}
 .bg-bonjour-blue{ background: #202F64 !important;}
 .bg-bonjour-blue-dark{ background: #0B0048 !important;}
