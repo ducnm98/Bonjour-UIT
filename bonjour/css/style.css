@@ -770,9 +770,9 @@ section { padding: 130px 0; }
 
 #header {z-index: 5}
 .navbar {border: none; display: inline-table; width: 100%; border-radius:0; position: fixed; top: 0; z-index: 10; }
-nav .container { display: table-cell; height: 75px; position: relative; vertical-align: middle; width: 80%!important;}
+nav .container { display: table-cell; height: 75px; position: relative; vertical-align: middle; width: 85%!important;}
 .navbar-header {background: url("img/logo-border.png") right no-repeat}
-nav.shrink .container {height: 60px; width: 80%!important;}
+nav.shrink .container {height: 60px; width: 85%!important;}
 .header-right { margin: 13px 0 0; }
 .navbar-nav a { font-size: 12px; text-transform: uppercase; color: #fff !important; padding:0 !important; font-weight: 600}
 .navbar-nav a:hover { color: #cacaca !important; background: transparent !important}
