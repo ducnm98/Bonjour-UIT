@@ -613,7 +613,7 @@
     .show-menu .menu-wrap {left: 0;}
 
     /* header */
-    .navbar-toggle .icon-bar {background: #ffffff;}
+    .navbar-toggle .icon-bar {background: #202F64;}
     .navbar-toggle { margin-right: 0}
     .navbar-collapse {box-shadow: none; background:rgba(255,255,255,.95); width: 100%; position: absolute; top: 75px}
     .navbar.shrink .navbar-collapse {top:60px}
@@ -733,7 +733,7 @@
     .attending-main {height: 500px;}
     .attending-main .img-border-medium {height: 470px;}
     .our-story-wedding .blog-post-style3 article .post-details { padding: 20px 0 0;}
-    .center-logo-header .navbar-toggle .icon-bar { background: #ffffff;}
+    .center-logo-header .navbar-toggle .icon-bar { background: #202F64;}
     
     /* tattoo */
     .header-white .navbar-nav a {color: #fff !important} 
@@ -978,7 +978,7 @@
     .xs-no-border { border:none !important}
 
     /* header */
-    .navbar-toggle .icon-bar {background: #ffffff;}
+    .navbar-toggle .icon-bar {background: #202F64;}
     .navbar-toggle { margin-right: 0}
     .navbar-collapse {box-shadow: none; background:rgba(255,255,255,.95); width: 100%; position: absolute; top: 75px}
     .navbar.shrink .navbar-collapse {top:60px}
