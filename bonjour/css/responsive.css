@@ -42,6 +42,38 @@
 }
 
 @media (max-width: 1300px) {
+
+    /* header */
+    .navbar-toggle .icon-bar {background: #202F64;}
+    .navbar-toggle { margin-right: 0}
+    .navbar-collapse {box-shadow: none; background:rgba(255,255,255,.95); width: 100%; position: absolute; top: 75px}
+    .navbar.shrink .navbar-collapse {top:60px}
+    .navbar li.active a { border-bottom: 1px solid #fff; display: inline-block; }
+    .navbar-header {float: none; display: contents;} 
+    .navbar-toggle {display: block;}     
+    .navbar-collapse.collapse {display: none!important;}
+    .navbar-nav>li {float: none; }
+    .collapse.in{display:block !important;}
+    .navbar-nav {width: 100%;}
+    .sidebar-nav .container {height: auto !important}
+    .sidebar-wrapper { padding-left: 0;}
+    .sidebar-nav {width: 100%; height: auto;}
+    nav.sidebar-nav .container { vertical-align: top; padding: 10px 15px }
+    .sidebar-nav .navbar-toggle { background-color: #000; border-radius: 0}
+    .navbar .container {width: 100%}
+    .sidebar-nav .navbar-collapse {background: #fff}
+    .navbar * { transition-timing-function: none; -moz-transition-timing-function: none; -webkit-transition-timing-function: none; -o-transition-timing-function: none; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; }
+    .sidebar-nav .navbar-collapse {left: 0; top: 11px;}
+    .sidebar-nav .navbar-nav li a {color: #000 !important; font-weight: 400;}
+    .sidebar-nav.shrink .navbar-collapse { top: 11px; }
+    .sidebar-nav .navbar-nav li a:hover::before, .sidebar-nav .navbar-nav li.active a::before {border: 0; }
+    .sidebar-nav .navbar-nav li a:hover, .sidebar-nav .navbar-nav li a:focus { color: #686868 !important;}
+    .sidebar-nav .navbar-nav li a::before {border: 0;}
+    .sidebar-nav .navbar-nav li{  padding: 12px 13px }
+    .sidebar-nav .navbar-nav li a {padding: 0 !important}
+    .sidebar-nav .navbar {border: 0;}
+    .sidebar-nav li.active a {border-bottom: 1px solid #000;}
+
      /* Bonjour image */
      .logo-image-bonjour { max-width: 50%; margin-bottom: 10%; }
     /* blog */
@@ -372,6 +404,9 @@
     
     /* page title */
     .blog-listing-link a::after { padding: 0 3px 0 7px; }
+
+    
+    
 }
 
 @media (max-width: 991px) {
@@ -612,36 +647,6 @@
     /* pull navigation */
     .show-menu .menu-wrap {left: 0;}
 
-    /* header */
-    .navbar-toggle .icon-bar {background: #202F64;}
-    .navbar-toggle { margin-right: 0}
-    .navbar-collapse {box-shadow: none; background:rgba(255,255,255,.95); width: 100%; position: absolute; top: 75px}
-    .navbar.shrink .navbar-collapse {top:60px}
-    .navbar li.active a { border-bottom: 1px solid #fff; display: inline-block; }
-    .navbar-header {float: none;} 
-    .navbar-toggle {display: block;}     
-    .navbar-collapse.collapse {display: none!important;}
-    .navbar-nav>li {float: none; }
-    .collapse.in{display:block !important;}
-    .navbar-nav {width: 100%;}
-    .sidebar-nav .container {height: auto !important}
-    .sidebar-wrapper { padding-left: 0;}
-    .sidebar-nav {width: 100%; height: auto;}
-    nav.sidebar-nav .container { vertical-align: top; padding: 10px 15px }
-    .sidebar-nav .navbar-toggle { background-color: #000; border-radius: 0}
-    .navbar .container {width: 100%}
-    .sidebar-nav .navbar-collapse {background: #fff}
-    .navbar * { transition-timing-function: none; -moz-transition-timing-function: none; -webkit-transition-timing-function: none; -o-transition-timing-function: none; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; }
-    .sidebar-nav .navbar-collapse {left: 0; top: 11px;}
-    .sidebar-nav .navbar-nav li a {color: #000 !important; font-weight: 400;}
-    .sidebar-nav.shrink .navbar-collapse { top: 11px; }
-    .sidebar-nav .navbar-nav li a:hover::before, .sidebar-nav .navbar-nav li.active a::before {border: 0; }
-    .sidebar-nav .navbar-nav li a:hover, .sidebar-nav .navbar-nav li a:focus { color: #686868 !important;}
-    .sidebar-nav .navbar-nav li a::before {border: 0;}
-    .sidebar-nav .navbar-nav li{  padding: 12px 13px }
-    .sidebar-nav .navbar-nav li a {padding: 0 !important}
-    .sidebar-nav .navbar {border: 0;}
-    .sidebar-nav li.active a {border-bottom: 1px solid #000;}
     
     /* work */
     .grid-style1 .grid figcaption h3 { font-size: 18px;}
