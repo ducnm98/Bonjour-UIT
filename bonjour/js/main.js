@@ -1142,7 +1142,7 @@ function bindEvent(el, eventName, eventHandler) {
 ==============================================================*/
 
 $('#counter-event').countdown($('#counter-event').attr("enddate")).on('update.countdown', function (event) {
-    var $this = $(this).html(event.strftime('' + '<div class="counter-container"><div class="counter-box first"><div class="number">%-D</div><span>Day%!d</span></div>' + '<div class="counter-box"><div class="number">%H</div><span>Hours</span></div>' + '<div class="counter-box"><div class="number">%M</div><span>Minutes</span></div>' + '<div class="counter-box last"><div class="number">%S</div><span>Seconds</span></div></div>'))
+    var $this = $(this).html(event.strftime('' + '<div class="counter-container"><div class="counter-box first"><div class="number">%-D</div><span>Journées</span></div>' + '<div class="counter-box"><div class="number">%H</div><span>Heures</span></div>' + '<div class="counter-box"><div class="number">%M</div><span>Minutes</span></div>' + '<div class="counter-box last"><div class="number">%S</div><span>Secondes</span></div></div>'))
 });
 
 $('body').on('touchstart click', function (e) {
